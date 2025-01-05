@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  top: 0;
+  padding: 10px 0;
+  background-color: #ff6fc8;
+  text-align: center;
+  z-index: 100;
+}
+header img {
+  width: 100px;
+}
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+header #mainNav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header #mainNav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  transition: color 0.5s;
+}
+header #mainNav a:hover {
+  color: black;
+}
+header #mainNav a.active {
+  color: black;
+}/*# sourceMappingURL=Nav.css.map */

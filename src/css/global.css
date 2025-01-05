@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #212329;
+  letter-spacing: 1px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,141 @@
+header {
+    // position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    background-color: #ff6fc8;
+    text-align: center;
+    z-index: 100;
+
+    img {
+        width: 100px;
+    }
+
+    .header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #mainNav {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        a {
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            list-style: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            margin: 0 10px;
+            transition: color 0.5s;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        a.active {
+            color: black;
+        }
+    }
+}
+
+// header #profile-nav {
+//     margin: 0 0 0 20px;
+//     position: relative;
+//     list-style: none;
+// }
+
+// header #profile-nav #profile-infor {
+//     position: absolute;
+//     background-color: white;
+//     width: 270px;
+//     height: 100px;
+//     border-radius: 20px;
+//     right: -280%;
+//     top: 128%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     visibility: hidden;
+//     transition: all 0.3s;
+// }
+
+// header #profile-nav:hover #profile-infor {
+//     visibility: visible !important;
+// }
+
+// header #profile-nav #profile-infor::before {
+//     position: absolute;
+//     content: "";
+//     display: block;
+//     width: 15px;
+//     height: 15px;
+//     background-color: white;
+//     top: -8px;
+//     left: 48%;
+//     transform: rotate(45deg);
+// }
+
+// #profile-nav #profile-infor .profile-email {
+//     font-weight: 700;
+//     margin-bottom: 10px;
+// }
+
+// #profile-nav #profile-email #email {
+//     font-weight: 500;
+// }
+
+// #profile-nav .btn-nav {
+//     padding: 10px 0px;
+//     background-color: #ff3da5;
+//     color: white;
+//     font-size: 0.8rem;
+//     letter-spacing: 1px;
+//     font-weight: bold;
+//     border: none;
+//     outline: none;
+//     cursor: pointer;
+//     width: 40%;
+//     margin: 0 auto;
+//     border-radius: 10px;
+// }
+
+// #profile-nav .btn-nav#btn-login {
+//     padding: 10px;
+//     display: inline-block;
+//     white-space: nowrap;
+// }
+
+// header #profile-nav img {
+//     width: 40px;
+//     transition: all 0.3s ease;
+//     border-radius: 50%;
+// }
+
+// header #profile-nav img:hover {
+//     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 1.5);
+// }
+
+// #profile-nav .btn-nav:hover {
+//     background-color: #E31283;
+// }
+
+// header #mainNav li #count-cart {
+//     color: red;
+// }
+
+// header #toggle {
+//     display: none;
+//     align-items: center;
+// }
+
+// header #toggle i {
+//     font-size: 2rem;
+// }
